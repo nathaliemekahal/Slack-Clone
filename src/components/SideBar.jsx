@@ -40,6 +40,8 @@ function SideBar() {
       <SideBarOption Icon={ExpandMoreIcon} title="Channels" />
       <hr />
       <SideBarOption Icon={AddIcon} title="Add Channel" />
+
+      {/** Connect to db and get the list of channels*/}
     </div>
   );
 }
