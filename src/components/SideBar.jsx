@@ -55,7 +55,7 @@ function SideBar() {
       <SideBarOption Icon={AddIcon} addChannelOption title="Add Channel" />
 
       {channels.map((channel) => (
-        <SideBarOption title={channel.name} />
+        <SideBarOption title={channel.name} id={channel.id} />
       ))}
     </div>
   );
