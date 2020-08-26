@@ -17,6 +17,7 @@ function ChatInput({ channelName, channelId }) {
         userImage: user.photoURL,
       });
     }
+    setInput("");
   };
   return (
     <div className="chatInput">
